@@ -1,7 +1,7 @@
 SELECT * FROM Guests; 
 INSERT INTO Guests (first_name, last_name, email, phone_number) VALUES('Fernando', 'Alonso', 'fernandoalonso14@example.com', '7890123456');
 
-INSERT INTO Bookings (guest_id, room_id, check_in, check_out, total_amount) VALUES(7, 7, '2014-11-01', '2014-11-05', 1000.00);
+INSERT INTO Bookings (guest_id, room_id, check_in, check_out, total_amount) VALUES(7, 7, '2014-11-01', '2014-11-05', 4000.00);
 
 INSERT INTO Payments (booking_id, amount_paid, payment_status) VALUES (7, 1000.00, 'Paid');
 
